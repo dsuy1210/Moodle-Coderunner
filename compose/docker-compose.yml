@@ -1,0 +1,21 @@
+﻿services:
+  db:
+    image: mariadb:10.11
+    container_name: mcr-db
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_DATABASE: moodle
+      MARIADB_USER: moodle
+      MARIADB_PASSWORD: moodle
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - db_data:/var/lib/mysql
+
+  jobe:
+    image: trampgeek/jobeinabox:latest
+    container_name: mcr-jobe
+    ports:
+      - "4000:80"
+
+volumes:
+  db_data:
