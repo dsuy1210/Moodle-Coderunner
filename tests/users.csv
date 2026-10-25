@@ -1,0 +1,11 @@
+﻿username,password,firstname,lastname,email,course1,role1
+sv01,Student@123,SV,Test01,sv01@example.com,PY01,student
+sv02,Student@123,SV,Test02,sv02@example.com,PY01,student
+sv03,Student@123,SV,Test03,sv03@example.com,PY01,student
+sv04,Student@123,SV,Test04,sv04@example.com,PY01,student
+sv05,Student@123,SV,Test05,sv05@example.com,PY01,student
+sv06,Student@123,SV,Test06,sv06@example.com,PY01,student
+sv07,Student@123,SV,Test07,sv07@example.com,PY01,student
+sv08,Student@123,SV,Test08,sv08@example.com,PY01,student
+sv09,Student@123,SV,Test09,sv09@example.com,PY01,student
+sv10,Student@123,SV,Test10,sv10@example.com,PY01,student

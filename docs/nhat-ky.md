@@ -9,3 +9,10 @@
 - Cấu hình Jobe: jobe_max_users = 16 (file /var/www/html/jobe/app/Config/Jobe.php dòng 32), nproc = 20
 - Lỗi gặp: Docker Desktop chưa chạy nên compose không nối được engine; đường dẫn config Jobe khác dự đoán
 - Buổi sau: thêm Moodle vào compose, cài plugin CodeRunner
+
+## Ngày 3-4 (T1-B3, T1-B4)
+- Đã làm: thêm Moodle vào compose, cài 2 plugin CodeRunner, tạo course PY01, 10 user, câu sum_even, quiz adaptive
+- Lỗi 1: Moodle không gọi được Jobe, "Failed to run tests". Nguyên nhân: Moodle chặn cURL tới dải mạng riêng 172.16.0.0/12 (mạng Docker). Cách sửa: bỏ dòng này khỏi cURL blocked hosts list (Site administration > General > Security > HTTP security)
+- Lỗi 2: chạy purge_caches.php bằng CLI làm Moodle báo "File store path does not exist", phải dựng lại (docker compose down -v). Bài học: xoá cache bằng giao diện
+- Lỗi 3: IndentationError do dán code có khoảng trắng đầu dòng
+- Buổi sau: ca lỗi và giới hạn tài nguyên (tuần 2)
