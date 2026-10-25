@@ -16,3 +16,9 @@
 - Lỗi 2: chạy purge_caches.php bằng CLI làm Moodle báo "File store path does not exist", phải dựng lại (docker compose down -v). Bài học: xoá cache bằng giao diện
 - Lỗi 3: IndentationError do dán code có khoảng trắng đầu dòng
 - Buổi sau: ca lỗi và giới hạn tài nguyên (tuần 2)
+
+## Ngày 5 (T2-B1)
+- Đã làm: 3 câu hàm (sum_even, reverse_string, count_words), mỗi câu có test thường, biên, ẩn
+- Ca sai thử: (ghi thông báo bạn thấy ở khối 3)
+- Lỗi gặp:
+- Buổi sau: câu đọc stdin, so sánh template combinator và per-test
