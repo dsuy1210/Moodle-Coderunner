@@ -22,3 +22,10 @@
 - Ca sai thử: (ghi thông báo bạn thấy ở khối 3)
 - Lỗi gặp:
 - Buổi sau: câu đọc stdin, so sánh template combinator và per-test
+
+## Ngày 6 (T2-B2)
+- Đã làm: 2 câu stdin (add_two, count_primes), thử grader, so sánh combinator và per-test
+- Kết quả grader: (dán bảng 5x3 của bạn)
+- Số lần gọi Jobe mỗi Check: combinator = ?, per-test = ?
+- Lỗi gặp:
+- Buổi sau: ca lỗi và code độc hại (while True, fork, đọc file hệ thống...)
